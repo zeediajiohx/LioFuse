@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Well.cs \
+obj\Debug\net8.0\Protos/WellGrpc.cs: Protos/well.proto

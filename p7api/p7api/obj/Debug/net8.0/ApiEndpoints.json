@@ -1,0 +1,94 @@
+[
+  {
+    "ContainingType": "p7api.Controllers.STRUCTURE_liteController",
+    "Method": "GetStructure_lites",
+    "RelativePath": "api/STRUCTURE_lite",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GrpcGreeterClient.Structures.Structure, p7api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "p7api.Controllers.STRUCTURE_liteController",
+    "Method": "ConfirmSelection",
+    "RelativePath": "api/STRUCTURE_lite/confirm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonElement",
+        "Type": "System.Text.Json.JsonElement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "p7api.Controllers.STRUCTURE_liteController",
+    "Method": "TestStructureDetailsRequest",
+    "RelativePath": "api/STRUCTURE_lite/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "p7api.Controllers.WELL_liteController",
+    "Method": "GetWell_lites",
+    "RelativePath": "api/WELL_lite",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GrpcGreeterClient.Wells.Well, p7api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "p7api.Controllers.WELL_liteController",
+    "Method": "ConfirmSelection",
+    "RelativePath": "api/WELL_lite/confirm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonElement",
+        "Type": "System.Text.Json.JsonElement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "p7api.Controllers.WELL_liteController",
+    "Method": "TestWellDetailsRequest",
+    "RelativePath": "api/WELL_lite/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

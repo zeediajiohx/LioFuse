@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Structure.cs \
+obj\Debug\net8.0\Protos/StructureGrpc.cs: Protos/structure.proto

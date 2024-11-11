@@ -1,0 +1,117 @@
+﻿<h3>FetchStructure</h3>
+@page "/fetchStructures"
+@using System.Text.Json
+@using System.Text
+@inject StructureService StructureService
+@inject HttpClient HttpClient
+@inject IJSRuntime jsRuntime
+<h3>Structure List</h3>
+
+@if (Structures == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <ul>
+        @foreach (var Structure in Structures)
+        {
+            <li>
+                <input type="checkbox" @onchange="() => ToggleSelection(Structure.Id)"> @Structure.Name (@Structure.FieldName)
+            </li>
+        }
+    </ul>
+}
+
+<h3>Selected Structure IDs</h3>
+
+@if (selectedStructureIds.Count == 0)
+{
+    <p>No Structures selected.</p>
+}
+else
+{
+    <ul>
+        @foreach (var id in selectedStructureIds)
+        {
+            <li>@id</li>
+        }
+    </ul>
+}
+<input @bind="newStructureId" placeholder="Enter Structure ID" />
+<button @onclick="AddStructureId" Color="Primary">Add</button>
+<button @onclick="ConfirmSelection"> Confirm </button>
+
+@code {
+    private List<Structure> Structures;
+    private HashSet<string> selectedStructureIds = new HashSet<string>();
+    private HttpResponseMessage? responseMessages;
+    private string newStructureId;
+    protected override async Task OnInitializedAsync()
+    {
+        Structures = await StructureService.GetStructuresAsync();
+    }
+
+    private void ToggleSelection(string id)
+    {
+        if (selectedStructureIds.Contains(id))
+        {
+            selectedStructureIds.Remove(id);
+        }
+        else
+        {
+            selectedStructureIds.Add(id);
+        }
+    }
+    private void AddStructureId()
+    {
+        if (!string.IsNullOrWhiteSpace(newStructureId) && !selectedStructureIds.Contains(newStructureId))
+        {
+            selectedStructureIds.Add(newStructureId);
+            newStructureId = string.Empty;
+        }
+    }
+    private async Task ConfirmSelection()
+    {
+
+        var selectedStructures = selectedStructureIds.ToList();
+        //  var jsonContent = new StringContent(JsonSerializer.Serialize(new { Structure_ids = selectedStructures }), Encoding.UTF8, "application/json");
+        // Console.WriteLine($"JSON Content: {await jsonContent.ReadAsStringAsync()}");
+
+        var responseMessages = await StructureService.PostStructureSelectedAsync(selectedStructures);
+        if (responseMessages.IsSuccessStatusCode)
+        {
+            var fileContent = await responseMessages.Content.ReadAsByteArrayAsync();
+            var fileName = "Structure_details.txt";
+            var mimeType = "text/plain";
+
+            // 调用 JavaScript 方法来触发文件下载
+            await jsRuntime.InvokeVoidAsync("downloadFile", fileName, mimeType, fileContent);
+        }
+        else
+        {
+            // 处理错误情况
+            Console.WriteLine("Failed to download file");
+        }
+        Console.WriteLine($"Response Messages: {responseMessages}");
+        // // var jsonContent = new StringContent(JsonSerializer.Serialize(new { Structure_ids = selectedStructures }), Encoding.UTF8, "application/json");
+        // // var response = await HttpClient.PostAsync("api/Structure_lite/confirm", jsonContent);
+        // if (responseMessages.IsSuccessStatusCode)
+        // {
+        //     // Handle successful confirmation
+        //     var result = await responseMessages.Content.ReadFromJsonAsync<ConfirmationResult>();
+        // }
+        // else
+        // {
+        //     // Handle error
+        // }
+    }
+    public class ConfirmationResult
+    {
+        public List<Structure> StructureDetails { get; set; }
+        //public List<Structure> Structures { get; set; }
+        //public List<Structurebore> Structurebores { get; set; }
+    }
+
+
+}

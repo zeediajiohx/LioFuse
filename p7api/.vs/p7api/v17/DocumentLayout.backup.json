@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JZhang202\\source\\repos\\p7api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\protos\\well.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\protos\\well.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\controllers\\structure_litecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\controllers\\structure_litecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\mapping.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\mapping.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\services\\structuremaplog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\services\\structuremaplog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\controllers\\well_litecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\controllers\\well_litecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\protos\\structure.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\protos\\structure.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\services\\maplog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\services\\maplog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\models\\mapmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\models\\mapmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\services\\well_definition_cvt_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\services\\well_definition_cvt_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JZhang202\\source\\repos\\BlazorFronted\\Layout\\NavMenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JZhang202\\source\\repos\\BlazorFronted\\Layout\\MainLayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JZhang202\\source\\repos\\BlazorFronted\\Layout\\MainLayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JZhang202\\source\\repos\\BlazorFronted\\Layout\\NavMenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\services\\grpc_well_lite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\services\\grpc_well_lite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\mapping1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\mapping1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\models\\structure_lite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\models\\structure_lite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\models\\well_lite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\models\\well_lite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|c:\\users\\jzhang202\\source\\repos\\p7api\\p7api\\p7api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11A2203A-FCB1-4780-9635-B8CD30F9D939}|p7api\\p7api.csproj|solutionrelative:p7api\\p7api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 162,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MapLog.cs",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Services\\MapLog.cs",
+              "RelativeDocumentMoniker": "p7api\\Services\\MapLog.cs",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Services\\MapLog.cs",
+              "RelativeToolTip": "p7api\\Services\\MapLog.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAkwIgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:27:06.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "p7api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\appsettings.Development.json",
+              "RelativeToolTip": "p7api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-05T19:01:49.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "mapping1.json",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\mapping1.json",
+              "RelativeDocumentMoniker": "p7api\\mapping1.json",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\mapping1.json",
+              "RelativeToolTip": "p7api\\mapping1.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkCAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-04T15:20:56.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Grpc_well_lite.cs",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Services\\Grpc_well_lite.cs",
+              "RelativeDocumentMoniker": "p7api\\Services\\Grpc_well_lite.cs",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Services\\Grpc_well_lite.cs",
+              "RelativeToolTip": "p7api\\Services\\Grpc_well_lite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T06:50:48.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WELL_liteController.cs",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Controllers\\WELL_liteController.cs",
+              "RelativeDocumentMoniker": "p7api\\Controllers\\WELL_liteController.cs",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Controllers\\WELL_liteController.cs",
+              "RelativeToolTip": "p7api\\Controllers\\WELL_liteController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T14:40:35.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\BlazorFronted\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "..\\BlazorFronted\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\BlazorFronted\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "..\\BlazorFronted\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T14:34:08.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MapModel.cs",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Models\\MapModel.cs",
+              "RelativeDocumentMoniker": "p7api\\Models\\MapModel.cs",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Models\\MapModel.cs",
+              "RelativeToolTip": "p7api\\Models\\MapModel.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:37:40.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\BlazorFronted\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "..\\BlazorFronted\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\BlazorFronted\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "..\\BlazorFronted\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T14:34:08.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "well_definition_cvt_service.cs",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Services\\well_definition_cvt_service.cs",
+              "RelativeDocumentMoniker": "p7api\\Services\\well_definition_cvt_service.cs",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Services\\well_definition_cvt_service.cs",
+              "RelativeToolTip": "p7api\\Services\\well_definition_cvt_service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T14:17:50.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\BlazorFronted\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "..\\BlazorFronted\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\BlazorFronted\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "..\\BlazorFronted\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T14:34:08.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\BlazorFronted\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "..\\BlazorFronted\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\BlazorFronted\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "..\\BlazorFronted\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T14:34:07.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "well.proto",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Protos\\well.proto",
+              "RelativeDocumentMoniker": "p7api\\Protos\\well.proto",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Protos\\well.proto",
+              "RelativeToolTip": "p7api\\Protos\\well.proto",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-11-05T18:48:04.549Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 189,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StructureMapLog.cs",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Services\\StructureMapLog.cs",
+              "RelativeDocumentMoniker": "p7api\\Services\\StructureMapLog.cs",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Services\\StructureMapLog.cs",
+              "RelativeToolTip": "p7api\\Services\\StructureMapLog.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwE0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:49:11.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "p7api.csproj",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7Api\\p7api\\p7api.csproj",
+              "RelativeDocumentMoniker": "p7api\\p7api.csproj",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7Api\\p7api\\p7api.csproj",
+              "RelativeToolTip": "p7api\\p7api.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-05T17:59:07.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "STRUCTURE_liteController.cs",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Controllers\\STRUCTURE_liteController.cs",
+              "RelativeDocumentMoniker": "p7api\\Controllers\\STRUCTURE_liteController.cs",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Controllers\\STRUCTURE_liteController.cs",
+              "RelativeToolTip": "p7api\\Controllers\\STRUCTURE_liteController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAIoAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:33:21.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WELL_lite.cs",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Models\\WELL_lite.cs",
+              "RelativeDocumentMoniker": "p7api\\Models\\WELL_lite.cs",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Models\\WELL_lite.cs",
+              "RelativeToolTip": "p7api\\Models\\WELL_lite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:32:01.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Structure_Lite.cs",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Models\\Structure_Lite.cs",
+              "RelativeDocumentMoniker": "p7api\\Models\\Structure_Lite.cs",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Models\\Structure_Lite.cs",
+              "RelativeToolTip": "p7api\\Models\\Structure_Lite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:31:52.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "structure.proto",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Protos\\structure.proto",
+              "RelativeDocumentMoniker": "p7api\\Protos\\structure.proto",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Protos\\structure.proto",
+              "RelativeToolTip": "p7api\\Protos\\structure.proto",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAF8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-11-05T17:20:12.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mapping.json",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\mapping.json",
+              "RelativeDocumentMoniker": "p7api\\mapping.json",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\mapping.json",
+              "RelativeToolTip": "p7api\\mapping.json",
+              "ViewState": "AgIAAHcJAAAAAAAAAAAswAIJAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-05T08:17:43.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Program.cs",
+              "RelativeDocumentMoniker": "p7api\\Program.cs",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\Program.cs",
+              "RelativeToolTip": "p7api\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T06:50:00.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "p7api\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\JZhang202\\source\\repos\\p7api\\p7api\\WeatherForecast.cs",
+              "RelativeToolTip": "p7api\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T14:40:51.152Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

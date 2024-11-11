@@ -1,0 +1,2967 @@
+{
+  "Unit": {
+    "1": {
+      "MSD_source": null,
+      "default_value": null,
+      "nullable": false,
+      "method": "",
+      "description": "HC / Not recommended",
+      "value": "HC",
+      "need_review": false
+    },
+    "2": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "1",
+      "need_review": false
+    },
+    "3": {
+      "MSD_source": null,
+      "default_value": "1",
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "",
+      "need_review": false
+    },
+    "4": {
+      "MSD_source": null,
+      "default_value": "0",
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "",
+      "need_review": false
+    },
+    "5": {
+      "MSD_source": null,
+      "default_value": "“Unit of Measure”",
+      "method": "",
+      "nullable": false,
+      "description": "“Unit of Measure”",
+      "value": "",
+      "need_review": false
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "Unit Number",
+      "method": "",
+      "nullable": false,
+      "description": "Unit Number / 100 onwards (for User-defined / eg. 100",
+      "value": "e.g. 100",
+      "need_review": false
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "eg.1",
+      "method": "",
+      "nullable": false,
+      "description": "Unit Name / Integer / eg.1",
+      "value": "e.g. 1",
+      "need_review": false
+    },
+    "8": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Quantity Type Name / Text / e.g., “length”"
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Format Reference / Text / See Table 4 / eg. 1"
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "unit_of_measure",
+          "key": "base_unit_number"
+        }
+      ],
+      "default_value": "uwi",
+      "nullable": true,
+      "method": "",
+      "description": "Base Unit Number / Integer / Blank if this unit is the base unit"
+    },
+    "11": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Conversion Factor A / Float / Blank if this unit is the base unit"
+    },
+    "12": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Conversion Factor B / Float / Blank if this unit is the base unit"
+    },
+    "13": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Conversion Factor C / Float / Blank if this unit is the base unit"
+    },
+    "14": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Conversion Factor D / Float / Blank if this unit is the base unit"
+    },
+    "15": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Description / Text / Ordered as above names Blank if none"
+    },
+    "16": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "Proposed",
+      "nullable": false,
+      "method": "",
+      "description": "EPSG Unit Code / “Unknown”, “Proposed”, “Permitted”, or “As-built”"
+    },
+    "17": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Source Description / Text / Defines the data source which provided details of this unit"
+    },
+    "18": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Source Version Details / Text / Defines the version of the data source which provided details of this unit"
+    },
+    "19": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Source Unit Code / Variant / Defines the unit code used by the data source which provided details of this unit. This item is written in the units used to define unit codes by the data source"
+    }
+  },
+  "CRS": {},
+  "project": {
+    "1": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "H7",
+      "nullable": false,
+      "method": "",
+      "description": "H7"
+    },
+    "2": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "1",
+      "nullable": false,
+      "method": "",
+      "description": "1"
+    },
+    "3": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "0"
+    },
+    "4": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "0"
+    },
+    "5": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "“Project Information”",
+      "nullable": false,
+      "method": "",
+      "description": "“Project Information”"
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "project",
+          "key": "projectName"
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Project Name / Text"
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "project",
+          "key": "createdBy"
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Field Name / Text / Can be Field, Lead or Prospect name Use “Unknown Field” if unknown"
+    },
+    "8": {
+      "MSD_source": [
+        {
+          "model": "project",
+          "key": "tagsMeta.additionalProp1.tagBy"
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Region or Administrative Area / Text / E.g., “Campos Basin”, “Permian - Texas”, etc. Use “Unknown area” if unknown"
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": "project",
+          "key": "country"
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Country Name / Text / E.g., “Brazil” Use “Unknown country” if information not available"
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "project",
+          "key": "ISO(country)"
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Text Country Code LJ3 / Text / ISO 3166-1 Alpha-3 Codes (optional)"
+    }
+  },
+  "structure": {
+    "1": {
+      "MSD_source": null,
+      "method": null,
+      "default_value": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "H7",
+      "need_review": false
+    },
+    "2": {
+      "MSD_source": null,
+      "method": null,
+      "default_value": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "1",
+      "need_review": false
+    },
+    "3": {
+      "MSD_source": null,
+      "method": null,
+      "default_value": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "1",
+      "need_review": false
+    },
+    "4": {
+      "MSD_source": null,
+      "method": null,
+      "default_value": "0",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "0",
+      "need_review": false
+    },
+    "5": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "Structure Definition",
+      "need_review": false
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": null,
+          "key": null
+        }
+      ],
+      "default_value": "1",
+      "method": "Increase from 1",
+      "nullable": false,
+      "description": "Defines a new Structure / Integer /STRUCTUREREF",
+      "value": "e.g.1",
+      "need_review": false
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "structure",
+          "key": "name"
+        }
+      ],
+      "method": "Direct Mapping",
+      "default_value": null,
+      "nullable": false,
+      "description": "Structure Name / text",
+      "value": "e.g.“Pad A”, “Seabed template”, etc.",
+      "need_review": false
+    },
+    "8": {
+      "MSD_source": null,
+      "method": null,
+      "default_value": null,
+      "nullable": false,
+      "description": "Fixed fields/ Structure Reference Point Abbreviation/ Must be “SRP” (WOBJTYPEID abbreviation)",
+      "value": "SRP",
+      "need_review": false
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": null,
+          "key": null
+        }
+      ],
+      "default_value": "1",
+      "method": "Increase from 1",
+      "nullable": false,
+      "description": "Structure Reference Point Number/ SRP defined in H7,4,0,0 Coordinates in the referenced O7 record",
+      "value": "1",
+      "need_review": false
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "structure",
+          "key": "location.northing"
+        },
+        {
+          "model": "structure",
+          "key": "location.easting"
+        }
+      ],
+      "default_value": null,
+      "method": "if key1==0&&key2?",
+      "nullable": false,
+      "description": "Structure Reference Point Description/ Structure horizontal reference point,  e.g., “Platform centre” ",
+      "value": "e.g., “Platform centre”",
+      "need_review": true
+    },
+    "11": {
+      "MSD_source": [
+        {
+          "model": "structure",
+          "key": "is_offshore"
+        }
+      ],
+      "default_value": null,
+      "method": "1 or 2",
+      "nullable": false,
+      "description": "Environment type / 1=Land 2=Marine / Int",
+      "value": "e.g. 1",
+      "need_review": false
+    },
+    "12": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": null,
+      "method": "",
+      "nullable": "false",
+      "description": "Environment description /E.g., “Onshore”, “Offshore”, “Transition”, “Swamp”, “Lake”, etc.",
+      "value": "",
+      "need_review": true
+    },
+    "13": {
+      "MSD_source": [
+        {
+          "model": "structure",
+          "key": "is_offshore"
+        }
+      ],
+      "default_value": null,
+      "method": "if is _offshore : Groundlevel",
+      "nullable": true,
+      "description": "Structure Vertical Coordinate Description/ See Table 11 For Land use “Ground Level” or “Top Cellar”, as appropriate For Marine use “Sea Floor” Blank if not applicable",
+      "value": "",
+      "need_review": true
+    },
+    "14": {
+      "MSD_source": [
+        {
+          "model": "structure",
+          "key": "location.azimuth_reference"
+        }
+      ],
+      "default_value": 1,
+      "method": "",
+      "nullable": true,
+      "description": "Structure North Reference Direction Type / 1=True North2=Grid North (must be of projected CRSREF 2)EPSG code=if different from 2 3=Unknown. Blank if not applicable",
+      "value": "e.g. 1",
+      "need_review": true
+    },
+    "15": {
+      "MSD_source": [
+        {
+          "model": "structure",
+          "key": "location.grid_convergence"
+        }
+      ],
+      "default_value": null,
+      "method": "",
+      "nullable": true,
+      "description": "Structure North Heading / Clockwise angle in degrees from the reference direction to the local structure north direction. Blank if not applicable",
+      "value": "e.g. 0.0",
+      "need_review": true
+    }
+  },
+  "well_definition": {
+    "1": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "H7",
+      "need_review": false
+    },
+    "2": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "1",
+      "need_review": false
+    },
+    "3": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "2",
+      "need_review": false
+    },
+    "4": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "0",
+      "need_review": false
+    },
+    "5": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "Well Definition",
+      "need_review": false
+    },
+    "6": {
+      "MSD_source": null,
+      "default_value": 1,
+      "method": "Increase from 1",
+      "nullable": false,
+      "description": "Well Reference Number / eg. 1",
+      "value": "e.g. 1",
+      "need_review": false
+    },
+    "7": {
+      "MSD_source": null,
+      "default_value": 1,
+      "method": "Increase from 1",
+      "nullable": false,
+      "description": "Structure Reference Number / eg.1",
+      "value": "e.g. 1",
+      "need_review": false
+    },
+    "8": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": null,
+      "nullable": false,
+      "description": "Fixed fields / Must be “WRP”",
+      "value": "WRP",
+      "need_review": false
+    },
+    "9": {
+      "MSD_source": null,
+      "default_value": 1,
+      "method": "Increase from 1 ",
+      "nullable": false,
+      "description": "Well Reference Point Reference Number / eg. 1/WRP defined in H7,4,0,0 Coordinates in the referenced O7 record",
+      "value": "e.g. 1",
+      "need_review": false
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "well",
+          "key": "UWI"
+        }
+      ],
+      "default_value": null,
+      "method": "Direct Mapping",
+      "nullable": false,
+      "description": "Primary UWI / Given by regulator or other entity",
+      "value": "",
+      "need_review": true
+    },
+    "11": {
+      "MSD_source": [
+        {
+          "model": "well",
+          "key": "name"
+        }
+      ],
+      "default_value": "",
+      "method": "Direct Mapping",
+      "nullable": false,
+      "description": "Primary Well Name / As designated by primary authority",
+      "value": "",
+      "need_review": true
+    },
+    "12": {
+      "MSD_source": [
+        {
+          "model": "well",
+          "key": "metadata.src"
+        }
+      ],
+      "default_value": "",
+      "method": "Direct Mapping",
+      "nullable": false,
+      "description": "Primary Authority Name / Regulator (e.g., “ANP”), Operator (e.g., “Shell”), or 3rd party (e.g., “IHS”)",
+      "value": "",
+      "need_review": true
+    },
+    "13": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": null,
+      "method": null,
+      "nullable": true,
+      "description": "Alternate UWI(s) / Blank if none",
+      "value": "",
+      "need_review": true
+    },
+    "14": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": null,
+      "nullable": true,
+      "description": "Alternate Well Name(s) / Ordered as above UWIs Blank if none",
+      "value": "",
+      "need_review": true
+    },
+    "15": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": null,
+      "nullable": true,
+      "description": "Alternate Authority Name(s) / Ordered as above names Blank if none",
+      "value": "",
+      "need_review": true
+    }
+  },
+  "well_details": {
+    "1": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "H7",
+      "need_review": false
+    },
+    "2": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "1",
+      "need_review": false
+    },
+    "3": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "3",
+      "need_review": false
+    },
+    "4": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "0",
+      "need_review": false
+    },
+    "5": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": null,
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "Well Details",
+      "need_review": false
+    },
+    "6": {
+      "MSD_source": null,
+      "default_value": 1,
+      "method": "Increase from 1",
+      "nullable": false,
+      "description": "Well Reference Number / ref: well_definition.6",
+      "value": "e.g. 1",
+      "need_review": false
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "well",
+          "key": "slot_name"
+        }
+      ],
+      "default_value": "",
+      "method": "Direct Mapping",
+      "nullable": false,
+      "description": "Slot Name or Number / eg. \"B2\"",
+      "value": "e.g. \"B2\"",
+      "need_review": false
+    },
+    "8": {
+      "MSD_source": [
+        {
+          "model": "slot",
+          "key": "diameter"
+        }
+      ],
+      "default_value": "",
+      "method": "slotid->structure.slot-> Direct Mapping",
+      "nullable": true,
+      "description": "Slot Diameter / eg. 13.1875 / Inches or millimetres expected (expressed as decimal number) Leave blank if not applicable",
+      "value": "e.g. 13.1875",
+      "need_review": true
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": true,
+      "description": "Slot Diameter Unit / eg. 10 / Leave blank if not applicable",
+      "value": "e.g. 10",
+      "need_review": true
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "structure",
+          "key": "location.northing"
+        },
+        {
+          "model": "structure",
+          "key": "location.north_south"
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": true,
+      "description": "Structure north coordinate (WRP offset from SRP) / eg. 36.0 / Structure north direction defined in Structure Definition record (H7,1,1,0) / Unit per projected CRS / Blank if not applicable / float / comment: Offsets (relative to the SRP), or “structure coordinates”, are optional and given with the intention to enable QC of the well location coordinates. Firstly, slots are often arranged in a regular pattern with consistent distances from the SRP, such that the magnitudes of the offsets enable QC. Secondly, the slot WRP projected coordinates (and other fixed objects) are required to be explicitly provided and used by software (using O7 records). These coordinates can redundantly be computed from the local offsets defined in this record relative to the SRP using a similarity transformation and compared for QC.",
+      "value": "e.g. 36.0",
+      "need_review": true
+    },
+    "11": {
+      "MSD_source": [
+        {
+          "model": "well",
+          "key": "location.east_west"
+        }
+      ],
+      "default_value": "",
+      "method": "Direct Mapping",
+      "nullable": true,
+      "description": "Structure east coordinate (WRP offset from SRP) / eg. 8.0 / Structure east direction defined in Structure Definition record (H7,1,1,0) / Unit per projected CRS / Blank if not applicable",
+      "value": "e.g. 8.0",
+      "need_review": true
+    }
+  },
+  "wellbore_definition": {
+    "1": {
+      "MSD_source": null,
+      "default_value": "H7",
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "H7",
+      "need_review": false
+    },
+    "2": {
+      "MSD_source": null,
+      "default_value": "1",
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "1",
+      "need_review": false
+    },
+    "3": {
+      "MSD_source": null,
+      "default_value": "3",
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "3",
+      "need_review": false
+    },
+    "4": {
+      "MSD_source": null,
+      "default_value": "0",
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "0",
+      "need_review": false
+    },
+    "5": {
+      "MSD_source": null,
+      "default_value": "“Wellbore Definition”",
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "“Wellbore Definition”",
+      "need_review": false
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "method": "Increase from 1",
+      "nullable": false,
+      "description": "Wellbore Reference Number / eg. 1",
+      "value": "e.g. 1",
+      "need_review": false
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "method": "Increase from 1",
+      "nullable": false,
+      "description": "Parent Well Reference Number / eg. 1 / ref: well_definition.6",
+      "value": "e.g. 1",
+      "need_review": false
+    },
+    "8": {
+      "MSD_source": [
+        {
+          "model": "wellbore",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": false,
+      "description": "Primary UWBI / eg. \"1234567890\" / Given by regulator or other entity",
+      "value": "e.g. \"1234567890\"",
+      "need_review": true
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": "wellbore",
+          "key": "name"
+        }
+      ],
+      "default_value": "",
+      "method": "Direct Mapping",
+      "nullable": false,
+      "description": "Primary Wellbore Name / eg. \"207/29-2Z\" / As designated by primary authority",
+      "value": "e.g. \"207/29-2Z\"",
+      "need_review": true
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": false,
+      "description": "Primary Authority Name / Regulator (e.g., “ANP”), Operator (e.g., “Shell”), or 3rd party (e.g., “IHS”)",
+      "value": "",
+      "need_review": true
+    },
+    "11": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": true,
+      "description": "Alternate UWBI(s) / Blank if none",
+      "value": "",
+      "need_review": true
+    },
+    "12": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": true,
+      "description": "Alternate Wellbore Name(s) / Ordered as above UWIs Blank if none",
+      "value": "",
+      "need_review": true
+    },
+    "13": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": true,
+      "description": "Alternate Authority Name(s) / Ordered as above names Blank if none",
+      "value": "",
+      "need_review": true
+    },
+    "14": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "Proposed",
+      "method": "",
+      "nullable": false,
+      "description": "Proposed or Actual Wellbore / Use “Proposed” or “Actual”",
+      "value": "",
+      "need_review": true
+    },
+    "15": {
+      "MSD_source": [
+        {
+          "model": "wellbore",
+          "key": "leaseline_id"
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "For United States OCS blocks: The lease number assigned to the lease that contains the bottomhole location of a borehole. More information and specific details on Well Naming and Numbering Standards can be found in NTL 2000-N07 (e.g., G09999, Y09999, A09999, or P09999).",
+      "description": "Bottom Hole Lease Number / eg. \"207/29\" / At surface location",
+      "value": "e.g. \"207/29\"",
+      "need_review": true
+    },
+    "16": {
+      "MSD_source": [
+        {
+          "model": "wellbore",
+          "key": "name"
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "For United States OCS blocks: The Well Name Suffix is an extension to the wellbore name which identifies each wellbore and indicates the number of times a well has been sidetracked or bypassed. An 8- character suffix to the well number identifies a sidetrack (ST) or bypass (BP) and the sidetrack and bypass number (e.g., STNNBPNN). An original hole will have a suffix of STOOBPOO, the first sidetrack off the original borehole will have a suffix of ST01BPOO, the first bypass off the original borehole will have a suffix of STOOBP01. If the first sidetrack is bypassed, the suffix will be ST01BP01. More information and specific details on Well Naming and Numbering Standards can be found in NTL 2000-NO7. (This practice is suggested to be followed in the P7/17 for other jurisdictions in absence of other guidance, as appropriate.)",
+      "description": "Wellbore Name Suffix / eg. \"ST00BP00\" / Leave blank if not applicable",
+      "value": "e.g. \"ST00BP00\"",
+      "need_review": true
+    },
+    "17": {
+      "MSD_source": [
+        {
+          "model": "welbore",
+          "key": "metadata.time"
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "Kick-off depth and tie-in point coordinates are defined via the Survey Definition record. Repeat record for each wellbore in the file.",
+      "description": "Kick-off Date / eg. 2020:02:21 / YYYY:MM:DD Use planned date if wellbore is not drilled yet Use Spud date for primary wellbore leave blank if unknown",
+      "value": "e.g. 2020:02:21",
+      "need_review": true
+    }
+  },
+  "Rig/Workover_ZDP_Definition": {
+    "1": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "H7",
+      "need_review": false
+    },
+    "2": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "1",
+      "need_review": false
+    },
+    "3": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "4",
+      "need_review": false
+    },
+    "4": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "0",
+      "need_review": false
+    },
+    "5": {
+      "MSD_source": null,
+      "default_value": null,
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields",
+      "value": "Rig/Workover ZDP Definition",
+      "need_review": false
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "method": "",
+      "nullable": false,
+      "description": "Rig/Workover ZDP Reference Number / eg. 1",
+      "value": "e.g. 1",
+      "need_review": false
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "Unknown Rig",
+      "method": "",
+      "nullable": false,
+      "description": "Rig/Workover Name / Use “Unknown Rig” if Rig/Workover name is unavailable",
+      "value": "",
+      "need_review": true
+    },
+    "8": {
+      "MSD_source": null,
+      "default_value": "ZDP",
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields/ Zero-depth Point Abbreviation / “ZDP”",
+      "value": "ZDP",
+      "need_review": false
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "method": "Increase from 1",
+      "nullable": false,
+      "description": "Zero-depth Point Reference Number / eg. 1 / ZDP defined in H7,4,0,0 Coordinates in the referenced O7 record / ref: **********************************^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "value": "e.g. 1",
+      "need_review": true
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": false,
+      "description": "ZDP Type Code / see Table 11",
+      "value": "",
+      "need_review": true
+    },
+    "11": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": false,
+      "description": "ZDP Type / “Derrick Floor”, “Kelly Bushing”, etc., see Table 11",
+      "value": "",
+      "need_review": true
+    },
+    "12": {
+      "MSD_source": [
+        {
+          "model": "structure/slotwell",
+          "key": "metadata.src"
+        }
+      ],
+      "default_value": 0,
+      "method": "",
+      "nullable": false,
+      "description": "Rig Type / 0: unknown 1: Land rig 2: Slant rig 3: Barge 4: Submersible 5: Platform 6: Jackup 7: Floater 8: Semi-submersible 9: Drill ship",
+      "value": "",
+      "need_review": true
+    },
+    "13": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "method": "",
+      "nullable": false,
+      "description": "Slant Type / 1: Vertical (use if unknown) 2: Slanted 3: Curved conductor",
+      "value": "e.g. 1",
+      "need_review": true
+    }
+  },
+  "survey_definition": {
+    "1": {
+      "MSD_source": null,
+      "default_value": "",
+      "nullable": false,
+      "method": "H7",
+      "description": "Fixed fields"
+    },
+    "2": {
+      "MSD_source": null,
+      "default_value": "",
+      "nullable": false,
+      "method": "1",
+      "description": "Fixed fields"
+    },
+    "3": {
+      "MSD_source": null,
+      "default_value": "",
+      "nullable": false,
+      "method": "5",
+      "description": "Fixed fields"
+    },
+    "4": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "5": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "Survey Definition",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "nullable": false,
+      "method": "Increase from 1",
+      "description": "Survey Reference Number / Integer / SURVEYREF / Defines a new Survey"
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "nullable": false,
+      "method": "Increase from 1",
+      "ref": "wellbore_definition.6",
+      "description": "Wellbore Reference Number / Integer / WELLBOREREF / Enables one to obtain the WRP and SRP used"
+    },
+    "8": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "method": "Increase from 1",
+      "nullable": false,
+      "description": "Rig/Workover ZDP Reference Number / Integer / RIGREF / Enables one to obtain the ZDP used / ref: Rig/Workover_ZDP_definition.6",
+      "value": "e.g. 1",
+      "need_review": false
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey.name"
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": false,
+      "description": "Survey Name / Text / Free format, generally defined by Operator",
+      "value": "",
+      "need_review": true
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey.survey_program.tool_code"
+        }
+      ],
+      "default_value": "Unknown",
+      "method": "",
+      "nullable": false,
+      "description": "Measurement Tool Type / Text List / “Magnetic”, “Gyro”, “Inertial”, “Inclination-only”, “Utility”, “Blind”, “Composite”, or “Unknown” Align with Table 13 if MTREF is given List order recommended from bit upwards / comment: field 10-11: If the BHA contains multiple tools (e.g., Magnetic and Gyro) then these fields allow the definition of a list. The recommended order is from the bit upwards. In many cases there will be a single tool and field 11 will be blank if the tool is not further defined (no H7,2,0,0 record). “Blind” is added to the list in Table 13 to enable exchange of a survey where no azimuth or inclination is available. “Composite” and “Unknown” are added to facilitate exchange of data that do not require tool details",
+      "value": "",
+      "need_review": true
+    },
+    "11": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "method": "",
+      "nullable": true,
+      "description": "Measurement Tool Reference / Integer / List MTREF / MTREF in H7,2,0,0: Measurement Tool Definition (mandatory if file contains raw data) Use same order as in field 10 Leave blank if MTREF is not defined. / ref: **********************************^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "value": "e.g. 1",
+      "need_review": true
+    },
+    "12": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": true,
+      "description": "Hole Type / Text / E.g., “Open hole”, “Casing”, “Liner”, “Tubing”, etc. Leave blank if unknown",
+      "value": "",
+      "need_review": true
+    },
+    "13": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey.survey_program.hole_size"
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Hole Segment Diameter(s) / Text List / E.g., “9-5/8 & 7-5/8” Leave blank if unknown"
+    },
+    "14": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Run Direction / Text / Use “In”, “Out”, or “Combined” Leave blank if unknown"
+    },
+    "15": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey.survey_program.start_md"
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "MD Start / Float / Measured Depth (below ZDP) at first surveyed point"
+    },
+    "16": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey.survey_program.end_md"
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "MD End / Float / Measured Depth at the last surveyed point"
+    },
+    "17": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "MD Unit of Measure Name / Text / Linear measurement unit for MD Use EPSG abbreviation, restricted to “ft” or “m” See Survey Details record for its UNITREF"
+    },
+    "18": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey_date"
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Date Survey Started / Date / Start Date (YYYY:MM:DD) Use planned spud date for a planned survey Leave blank if not available"
+    },
+    "19": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": false,
+      "description": "Date Survey Ended / Date / End Date (YYYY:MM:DD) Leave blank if not available",
+      "value": "e.g. YYYY:MM:DD",
+      "need_review": true
+    },
+    "20": {
+      "MSD_source": null,
+      "default_value": "TP",
+      "method": "",
+      "nullable": false,
+      "description": "Fixed fields / Tie-in Point Abbreviation / Text / Must say “TP” (also if not tied at depth)",
+      "value": "TP",
+      "need_review": true
+    },
+    "21": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "method": "Increase from 1",
+      "nullable": false,
+      "description": "Tie-in Point Reference Number / Integer / WOBJREF / Reference to Tie-in Point defined in the file using a H7,4,0,0: Position Object Definition record and an O7 record. Use the WOBJREF of the WRP if the survey is tied at the surface. Cannot be blank / ref: **********************************^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "value": "e.g. 1",
+      "need_review": true
+    },
+    "22": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": true,
+      "description": "Kick-Off Depth / Float / Measured Depth below the ZDP defined for this survey Blank if tied to the WRP",
+      "value": "",
+      "need_review": true
+    },
+    "23": {
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey: tie_in: parent_survey"
+        }
+      ],
+      "default_value": "",
+      "method": "",
+      "nullable": true,
+      "description": "Parent Survey / Integer / SURVEYREF / Indicates the survey used to tie-in to (may use a different ZDP) Blank if tied to the WRP or when parent survey is not present in the P7/17 file",
+      "value": "",
+      "need_review": true
+    }
+  },
+  "survey_details": {
+    "1": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "H7",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "2": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "1",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "3": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "5",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "4": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "1",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "5": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "Survey Details",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "Increase from 1",
+      "ref": "survey_definition.6",
+      "description": "Survey Reference Number / Integer / SURVEYREF"
+    },
+    "7": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "ref": "survey_definition.17",
+      "ref2": "unit.",
+      "description": "MD Unit of Measure / Integer / UNITREF / Computer readable. Same unit is used for local offsets (1 or 11 for m or ft, respectively). See Survey Definition record for MD Unit of Measure name (text)"
+    },
+    "8": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "MD Type ID / Integer / WOBSID / See Table 12 (codes 1 - 5)"
+    },
+    "9": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "MD Type Name / Text / See Table 12 E.g., “MD-Drillpipe”"
+    },
+    "10": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "MD Type Flag / Integer / See Table 12"
+    },
+    "11": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "MD Type Flag Name / Text / See Table 12 E.g., “Indicated depth”"
+    },
+    "12": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "INC Type Flag / Integer / See Table 12"
+    },
+    "13": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey.azimuth_reference"
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "AZ Type ID / Integer / WOBSID / See Table 12 (codes 7 - 11)"
+    },
+    "14": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey.azimuth_reference"
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "AZ Type Name / Text / See Table 12 E.g., “AZ_GRID”"
+    },
+    "15": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey.azimuth_reference"
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "AZ Type Flag / Integer / See Table 12"
+    },
+    "16": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "AZ Type Flag Name / Text / See Table 12 E.g., “Calculated from AZ_TRUE” or “Planned”"
+    },
+    "17": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Grid Convergence Correction Flag / Integer / 0 = Was not applied 1 = Applied at discrete point 2 = Applied varying along wellbore path"
+    },
+    "18": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Grid Convergence Applied Value / Float / At first corrected point (in degrees) See note for sign convention Leave blank if not applied"
+    },
+    "19": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Magnetic Declination Correction Flag / Integer / 0 = Was not applied 1 = Applied at discrete point 2 = Applied varying along wellbore path"
+    },
+    "20": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey.magnetic_fields.declination"
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Magnetic Declination Applied Value / Float / At first corrected point (in degrees) Leave blank if not applied"
+    },
+    "21": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey.magnetic_fields.magnetic_date"
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Date for which the Geomagnetic Parameters were computed / Date / YYYY:MM:DD Leave blank if not applied"
+    },
+    "22": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey.magnetic_fields.magnetic_model"
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "Increase from 1",
+      "ref": "**********************************^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "description": "Geomagnetic Model / Integer / MAGREF / Defined in H7,3,0,0 Leave blank for non-magnetic tools, or if not applicable"
+    },
+    "23": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "surveys_combined",
+          "key": "survey.magnetic_fields.gravity_model"
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "Increase from 1",
+      "ref": "**********************************^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "description": "Gravity Model / Integer / GRAVREF / Defined in H7,3,1,0 Leave blank if not applicable"
+    }
+  },
+  "well_op_dir": {
+    "1": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "H7",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "2": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "1",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "3": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "5",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "4": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "2",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "5": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "“Operator/Survey Contractor”",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "nullable": false,
+      "method": "",
+      "ref": "survey_definition.6",
+      "description": "Survey Reference Number / Integer / SURVEYREF"
+    },
+    "7": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "Unknown Operator",
+      "nullable": false,
+      "method": "",
+      "description": "Operator / Text / Use “Unknown Operator” if not known"
+    },
+    "8": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "Unknown Contractor",
+      "nullable": false,
+      "method": "",
+      "description": "Survey Contractor / Text / Use “Unknown Contractor” if not known"
+    },
+    "9": {
+      "review": "need",
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "Unknown Job Number",
+      "nullable": false,
+      "method": "",
+      "description": "Contractor’s Job Number / Text / Use “Unknown Job Number” if not known"
+    }
+  },
+  "measurement_tool_definition": {
+    "1": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "H7",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "2": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "2",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "3": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "4": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "5": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "Measurement Tool Definition",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "nullable": false,
+      "method": "Increase from 1",
+      "description": "Measurement Tool Reference / Integer / MTREF / Definition of new Tool Referenced in H7,1,5,0: Survey Definition"
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Measurement Tool Name / Text / User-defined"
+    },
+    "8": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "ref": "",
+      "description": "Measurement Tool Type Identification / Integer / MTTYPEID / See Table 13"
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "ref": "",
+      "description": "Measurement Tool Type / Text / Must match type in Table 13 and type given in H7,1,5,0"
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Manufacturer / Text / Leave blank if unknown"
+    },
+    "11": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Tool serial number / Text / From manufacturer Leave blank if unknown"
+    },
+    "12": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Distance of measurement point from the bottom of BHA/toolstring / Float / Positive number Unit (m or ft) per H7,1,5,1 Leave blank if unknown"
+    }
+  },
+  "Geomagnetic_model_definition": {
+    "1": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "H7",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "2": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "3",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "3": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "4": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "5": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "“Geomagnetic Model Definition”",
+      "nullable": false,
+      "method": "",
+      "description": "Fixed fields"
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": 1,
+      "nullable": false,
+      "method": "Increase from 1",
+      "description": "Geomagnetic Model Reference Number / Integer / MAGREF / Defines a model"
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Description of strategy used for application of geomagnetic parameters / Text"
+    },
+    "8": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Source of Geomagnetic Parameters / Text / E.g., WMM, BGGM, HDGM, etc."
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Geomagnetic Model Year / Date / YYYY"
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "IFR Data Source / Text / Blank if not applicable"
+    }
+  },
+  "gravity_model_definition": {
+    "1": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "H7",
+      "nullable": false,
+      "method": "",
+      "description": "H7"
+    },
+    "2": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "3",
+      "nullable": false,
+      "method": "",
+      "description": "3"
+    },
+    "3": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "1",
+      "nullable": false,
+      "method": "",
+      "description": "1"
+    },
+    "4": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "0"
+    },
+    "5": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "“Gravity Model Definition”",
+      "nullable": false,
+      "method": "",
+      "description": "“Gravity Model Definition” / Theoretical model"
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Gravity Model Reference Number / Integer / GRAVREF / Defines a model"
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Source of Gravity Model / Text / Name, e.g., ‘IGF80’"
+    }
+  },
+  "position_object_definition": {
+    "1": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "H7",
+      "nullable": false,
+      "method": "",
+      "description": "H7"
+    },
+    "2": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "4",
+      "nullable": false,
+      "method": "",
+      "description": "4"
+    },
+    "3": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "0"
+    },
+    "4": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "0"
+    },
+    "5": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "“Position Object Definition”",
+      "nullable": false,
+      "method": "",
+      "description": "“Position Object Definition”"
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Object Reference Number / Integer / WOBJREF / Defines a new Position Object"
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Object Short Name / Text / User defined name for object Use to distinguish multiple position objects of same type from one another"
+    },
+    "8": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Object Type Reference Code / Integer / WOBJTYPEID / See Table 14"
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Object Type Name / Text / See Table 14 E.g., “Well Reference Point”"
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Description of Position Object / Text / Optional additional details"
+    },
+    "11": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Survey Reference Number / Integer / SURVEYREF / Mandatory unless field 12-17 are blank"
+    },
+    "12": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Measured Depth (MD) at location of this Position Object / Float / Blank if not applicable"
+    },
+    "13": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Inclination (INC) at this location / Float / Blank if not applicable"
+    },
+    "14": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Azimuth (AZ) at this location / Float / Blank if not applicable"
+    },
+    "15": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Local northing (n) at this location / Float / Blank if not applicable"
+    },
+    "16": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Local easting (e) at this location / Float / Blank if not applicable"
+    },
+    "17": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Local depth (d) at this location / Float / Blank if not applicable"
+    }
+  },
+  "position_Object_Attribute": {
+    "1": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "H7",
+      "nullable": false,
+      "method": "",
+      "description": "H7"
+    },
+    "2": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "4",
+      "nullable": false,
+      "method": "",
+      "description": "4"
+    },
+    "3": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "1",
+      "nullable": false,
+      "method": "",
+      "description": "1"
+    },
+    "4": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "0"
+    },
+    "5": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "Attribute Name",
+      "nullable": false,
+      "method": "",
+      "description": "Attribute Name / See Table 15"
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Attribute Identification / Integer / WOBJATTID / See Table 15"
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Object Reference Number / Integer / WOBJREF"
+    },
+    "8": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Attribute Value / Variant / If fields 9 and 10 are blank, the Attribute Value is assumed to be of text or date data type"
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Attribute Unit / Integer / UNITREF / Leave blank if not applicable"
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Attribute Unit Name / Text / Leave blank if not applicable"
+    }
+  },
+  "Position_Objects_Data": {
+    "1": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "o7",
+      "nullable": false,
+      "method": "",
+      "description": "Record Identifier / Text / Must be “O7”"
+    },
+    "2": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "Record Version / Integer / 0"
+    },
+    "3": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Object Reference Number / Integer / WOBJREF"
+    },
+    "4": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Object Type Abbreviation / Text / e.g., “WRP” - see Table 14"
+    },
+    "5": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Object Short Name / Text / Copy same short name as defined in H7,4,0,0"
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Northing / Float / CRSREF=2 projected CRS defined in HC,1,3,0"
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Easting / Float / CRSREF=2 projected CRS defined in HC,1,3,0"
+    },
+    "8": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Depth / Float / CRSREF=3 vertical depth CRS defined in HC,1,3,0"
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Latitude / Float / CRSREF=1 base geographic CRS defined in HC,1,3,0"
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Longitude / Float / CRSREF=1 base geographic CRS defined in HC,1,3,0"
+    }
+  },
+  "Surveyed_and_Calculated_Data": {
+    "1": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "P7",
+      "nullable": false,
+      "method": "",
+      "description": "Record Identifier / Text / Must be “P7”"
+    },
+    "2": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "0",
+      "nullable": false,
+      "method": "",
+      "description": "Record Version / Integer / 0"
+    },
+    "3": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "P7 Table Number / Integer / P7TABLEREF / Constant for a related block of P7 records"
+    },
+    "4": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Survey Reference Number / Integer / SURVEYREF"
+    },
+    "5": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Survey Tool Error Model Reference Number / Integer / STEMREF / Leave blank if unknown"
+    },
+    "6": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Survey Tool Error Model Name / Text / (OWSG) error model See notes for format Leave blank if unknown"
+    },
+    "7": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Position Object Reference Number / Integer / WOBJREF / If pertaining to a defined well object (H7,4,0,0) Otherwise leave blank"
+    },
+    "8": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Position Object Type Abbreviation / Text / See Table 14"
+    },
+    "9": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Observables Status Code / Integer / WOBSSTATUS / Refer to Table 20"
+    },
+    "10": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Observables Status Name / Text / Refer to Table 20"
+    },
+    "11": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Measured Depth (MD) / Float / Same unit as SURVEYREF"
+    },
+    "12": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Inclination (INC) / Float / Degrees"
+    },
+    "13": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Azimuth (AZ) / Float / Same azimuth reference as SURVEYREF"
+    },
+    "14": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Local northing (n) / Float / Same unit as MD Same orientation as AZ"
+    },
+    "15": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Local easting (e) / Float / Same unit as MD Same orientation as AZ"
+    },
+    "16": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Local depth (d) / Float / Same unit as MD"
+    },
+    "17": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Northing (N) / Float / In CRSREF=2 projected CRS as defined in HC,1,3,0 May have different unit and/or orientation than local northing"
+    },
+    "18": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Easting (E) / Float / In CRSREF=2 projected CRS May have different unit and/or orientation than local easting"
+    },
+    "19": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Depth (D) / Float / In CRSREF=3 vertical CRS May have different unit than local depth"
+    },
+    "20": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Latitude / Float / Optional. In CRSREF=1, the base geographic CRS of the projected CRS"
+    },
+    "21": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": true,
+      "method": "",
+      "description": "Longitude / Float / Optional. In CRSREF=1, the base geographic CRS of the projected CRS"
+    },
+    "22": {
+      "MSD_source": [
+        {
+          "model": "",
+          "key": ""
+        }
+      ],
+      "default_value": "",
+      "nullable": false,
+      "method": "",
+      "description": "Additional Data Fields / Additional Field List / The number of items must equal that given in the H7,5,0,0 record"
+    }
+  }
+}

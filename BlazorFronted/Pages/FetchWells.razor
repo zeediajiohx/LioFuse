@@ -1,0 +1,117 @@
+﻿<h3>FetchWells</h3>
+@page "/fetchwells"
+@using System.Text.Json
+@using System.Text
+@inject WellService WellService
+@inject HttpClient HttpClient
+@inject IJSRuntime jsRuntime
+<h3>Well List</h3>
+
+@if (wells == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <ul>
+        @foreach (var well in wells)
+        {
+            <li>
+                <input type="checkbox" @onchange="() => ToggleSelection(well.Id)"> @well.Name (@well.SlotName, @well.Src)
+            </li>
+        }
+    </ul>
+}
+
+<h3>Selected Well IDs</h3>
+
+@if (selectedWellIds.Count == 0)
+{
+    <p>No wells selected.</p>
+}
+else
+{
+    <ul>
+        @foreach (var id in selectedWellIds)
+        {
+            <li>@id</li>
+        }
+    </ul>
+}
+<input @bind="newWellId" placeholder="Enter Well ID"/>
+<button @onclick="AddWellId" Color="Primary">Add</button>
+<button @onclick = "ConfirmSelection" > Confirm </button>
+
+@code {
+    private List<Well> wells;
+    private HashSet<string> selectedWellIds = new HashSet<string>();
+    private HttpResponseMessage? responseMessages;
+    private string newWellId;
+    protected override async Task OnInitializedAsync()
+    {
+        wells = await WellService.GetWellsAsync();
+    }
+
+    private void ToggleSelection(string id)
+    {
+        if (selectedWellIds.Contains(id))
+        {
+            selectedWellIds.Remove(id);
+        }
+        else
+        {
+            selectedWellIds.Add(id);
+        }
+    }
+    private void AddWellId()
+    {
+        if (!string.IsNullOrWhiteSpace(newWellId) && !selectedWellIds.Contains(newWellId))
+        {
+            selectedWellIds.Add(newWellId);
+            newWellId = string.Empty;
+        }
+    }
+    private async Task ConfirmSelection()
+    {
+
+        var selectedWells = selectedWellIds.ToList();
+        // var jsonContent = new StringContent(JsonSerializer.Serialize(new { well_ids = selectedWells }), Encoding.UTF8, "application/json");
+        // Console.WriteLine($"JSON Content: {await jsonContent.ReadAsStringAsync()}");
+
+        var responseMessages = await WellService.PostWellSelectedAsync(selectedWells);
+        if (responseMessages.IsSuccessStatusCode)
+        {
+            var fileContent = await responseMessages.Content.ReadAsByteArrayAsync();
+            var fileName = "well_details.txt";
+            var mimeType = "text/plain";
+
+            // 调用 JavaScript 方法来触发文件下载
+            await jsRuntime.InvokeVoidAsync("downloadFile", fileName, mimeType, fileContent);
+        }
+        else
+        {
+            // 处理错误情况
+            Console.WriteLine("Failed to download file");
+        }
+        Console.WriteLine($"Response Messages: {responseMessages}");
+        // // var jsonContent = new StringContent(JsonSerializer.Serialize(new { well_ids = selectedWells }), Encoding.UTF8, "application/json");
+        // // var response = await HttpClient.PostAsync("api/WELL_lite/confirm", jsonContent);
+        // if (responseMessages.IsSuccessStatusCode)
+        // {
+        //     // Handle successful confirmation
+        //     var result = await responseMessages.Content.ReadFromJsonAsync<ConfirmationResult>();
+        // }
+        // else
+        // {
+        //     // Handle error
+        // }
+    }
+    public class ConfirmationResult
+    {
+        public List<Well> WellDetails { get; set; }
+       //public List<Structure> Structures { get; set; }
+        //public List<Wellbore> Wellbores { get; set; }
+    }
+    
+
+}

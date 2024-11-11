@@ -1,0 +1,149 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcGreeter.Structures";
+
+package Structures;
+
+message Structure{
+	string id = 1;
+	string name = 2;
+	optional string field_name = 3;
+	
+}
+message StructureRequest{
+	int32 count = 1;
+}
+message StructureResponse{
+	repeated Structure structures = 1;
+}
+
+message Location {
+  string coordinate_reference_system = 1;
+  string azimuth_reference = 2;
+  Uncertainty uncertainty = 3;
+  string coordinates_type = 4;
+  double northing = 5;
+  double easting = 6;
+  double latitude = 7;
+  double longitude = 8;
+  double north_south = 9;
+  double east_west = 10;
+  double azimuth = 11;
+  double distance = 12;
+  double grid_convergence = 13;
+  double scale_factor = 14;
+}
+
+message Uncertainty {
+  double confidence = 1;
+  double radius = 2;
+}
+
+message Wgs84Location {
+  string type = 1;
+  repeated double coordinates = 2;
+}
+
+message Elevation {
+  string name = 1;
+  double offset = 2;
+}
+
+message Metadata {
+  string src = 1;
+  string trace = 2;
+  string id = 3;
+  string time = 4;
+  string transfer_version = 5;
+  string last_update_time = 6;
+  string drillplan_id = 7;
+}
+
+message Wrp {
+  double ns = 1;
+  double ew = 2;
+  double tvd = 3;
+  double md = 4;
+  double inclination = 5;
+  double azimuth = 6;
+}
+
+message AssignedWell {
+  string well_id = 1;
+  string well_name = 2;
+  repeated string drillplan_wellbore_node_ids = 3;
+}
+
+message Slot {
+  repeated AssignedWell assigned_wells = 1;
+  bool is_assigned_to_actual_well = 2;
+  string _id = 3;
+  string name = 4;
+  Location location = 5;
+  double diameter = 6;
+  Metadata metadata = 7;
+}
+
+message Well {
+  string id = 1;
+  string name = 2;
+  string slot_id = 3;
+  string slot_name = 4;
+  string structure_id = 5;
+  Location location = 6;
+  double ground_level = 7;
+  Wgs84Location wgs84_location = 8;
+  Elevation elevation = 9;
+  Elevation elevation_datum = 10;
+  Wrp wrp = 11;
+  double conductor_diameter = 12;
+  string mother_well_slot = 13;
+  Metadata metadata = 14;
+  bool is_offshore = 15;
+  string field_name = 16;
+  string country = 17;
+  string client_name = 18;
+  string location_code = 19;
+  string area = 20;
+  string state = 21;
+  string county = 22;
+  string city = 23;
+  string uwi = 24;
+  string well_type = 25;
+  string well_purpose = 26;
+  int32 _version = 27;
+  repeated string drillplan_wellbore_node_ids = 28;
+}
+
+message StructureDetail {
+  string id = 1;
+  string name = 2;
+  string operator = 3;
+  bool is_offshore = 4;
+  Location location = 5;
+  Wgs84Location wgs84_location = 6;
+  Elevation elevation_datum = 7;
+  Elevation elevation = 8;
+  string structure_mas = 9;
+  Metadata metadata = 10;
+  string field_name = 11;
+  string country = 12;
+  string client_name = 13;
+  string location_code = 14;
+  repeated Slot slot_set = 15;
+  repeated Well well_set = 16;
+  int32 _version = 17;
+  string comments = 18;
+}
+message StructureDetailsRequest {
+	repeated string structure_ids = 1;
+}
+
+message StructureDetailsResponse {
+	repeated StructureDetail structure_details = 1;
+}
+
+service StructureService {
+	rpc GetStructures (StructureRequest) returns (StructureResponse); 
+	rpc GetStructureDetails (StructureDetailsRequest) returns (StructureDetailsResponse);
+}
